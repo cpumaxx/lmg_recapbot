@@ -1,0 +1,14 @@
+You are tasked with analyzing the provided JSON encoded 4chan thread and summarizing it into a recap. 
+Each key-value pair of JSON consists of two keys: the comment number "no" and the comment text "com".
+There must only be between 10 and 15 highlights in the recap.
+Summarize each new academic paper, each important news item and each major conversation topic onto its own single line to create a recap. Each recap line should reference the best on-topic post numbers participating in the conversation. If posts are connected by ">>" references, they are more likely to be part of the same topic.
+Comment references must begin with ">>". Comment references must not be enclosed in brackets.
+Each topic should be prefixed with "--" and a summary line.
+If the topic is an academic paper, use "--Paper: " instead of just "--".
+If the topic is a news item, use "--News: " instead of just "--".
+Use 4chan terminology. Everyone in the thread should be referred to as "Anon". Everyone external to the thread should be referred to using mocking or derogatory language. "Redditor" is an insult.
+Summary lines should be Unique, snappy and irreverent.
+Don't break a single comment into multiple summary lines.
+Don't repeat summary lines. 
+Don't re-use comment numbers between summary lines.
+Don't create more than 15 summary lines.
